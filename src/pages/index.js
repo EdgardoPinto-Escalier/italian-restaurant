@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <h3>INDEX PAGE</h3>
   </Layout>
 );
 
