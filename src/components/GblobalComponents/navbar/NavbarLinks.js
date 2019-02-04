@@ -55,13 +55,13 @@ li {
   display: block;
   text-decoration: none;
   padding: 0.5rem 1rem 0.5rem 1rem;
-  color: ${styles.colors.purple};
+  color: ${styles.colors.black};
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
   ${styles.transitionDefault};
   &:hover {
-    background: ${styles.colors.deepPurple};
+    background: ${styles.colors.grey};
     color: ${styles.colors.white};
     padding: 0.5rem 1rem 0.5rem 1rem;
   }

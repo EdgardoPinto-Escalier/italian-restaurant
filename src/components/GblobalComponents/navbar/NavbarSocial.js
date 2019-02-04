@@ -53,11 +53,11 @@ const SocialWrapper = styled.div`
 }
 
 .facebookIcon, .twitterIcon, .instagramIcon {
-  color: ${styles.colors.purple}
+  color: ${styles.colors.black}
 }
 
 .icon:hover {
-  color: ${styles.colors.black};
+  color: ${styles.colors.grey};
 }
 
 display: none;

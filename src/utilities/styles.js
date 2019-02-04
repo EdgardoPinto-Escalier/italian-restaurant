@@ -9,6 +9,8 @@ export const colors = {
   lightGreen: `#7cb342 `
 };
 
+//export const textSlanted = `font-family: 'Caveat', cursive;`
+
 export const transitionDefault = 'transition: all 0.3s ease-in-out'
 export const transitionFunction = (
   property = 'all',
@@ -24,4 +26,8 @@ export const transitionObject = ({
   type = 'ease-in-out',
 }) => {
   return `transition: ${property} ${time} ${type}`;
+}
+
+export const letterSpacing = ({ spacing = '0.1rem'}) => {
+  return `letter-spacing:${spacing}`
 }

@@ -38,7 +38,7 @@ const HeaderWrapper = styled.div`
   .toggle {
     font-size: 1.75rem;
     cursor: pointer;
-    color: ${styles.colors.purple};
+    color: ${styles.colors.black};
   }
 
   a {
@@ -46,7 +46,7 @@ const HeaderWrapper = styled.div`
   }
 
   span.logo {
-    color: ${styles.colors.purple};
+    color: ${styles.colors.black};
     padding: 5px;
   }
 
