@@ -13,7 +13,7 @@ export default class NavbarHeader extends Component {
         <Link to="/">
           <h1>
             <span className="logo">
-              <MdRestaurantMenu className="logoIcon" /> ITALIAN RESTAURANT
+              <MdRestaurantMenu className="logoIcon" /> CAPRI
             </span>
           </h1>
         </Link>
@@ -30,7 +30,7 @@ export default class NavbarHeader extends Component {
 
 
 const HeaderWrapper = styled.div`
-  padding: 0.4rem 1rem;
+  padding: 0.4rem 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;

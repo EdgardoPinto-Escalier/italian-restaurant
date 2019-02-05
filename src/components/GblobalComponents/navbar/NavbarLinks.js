@@ -47,32 +47,32 @@ export default class NavbarLinks extends Component {
 
 
 const LinkWrapper = styled.ul`
-li {
-  list-style-type: none;
-}
-
-.navLink {
-  display: block;
-  text-decoration: none;
-  padding: 0.5rem 1rem 0.5rem 1rem;
-  color: ${styles.colors.black};
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-  ${styles.transitionDefault};
-  &:hover {
-    background: ${styles.colors.grey};
-    color: ${styles.colors.white};
-    padding: 0.5rem 1rem 0.5rem 1rem;
+  li {
+    list-style-type: none;
   }
-}
 
-height: ${props => (props.open ? '182px' : '0px')};
-overflow: hidden;
-${styles.transitionObject({ time: '0.5s' })};
-@media (min-width: 768px) {
-  height: auto;
-  display: flex;
-  margin: 0 auto;
-}
-`
+  .navLink {
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: ${styles.colors.black};
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    ${styles.transitionDefault};
+    &:hover {
+      background: ${styles.colors.grey};
+      color: ${styles.colors.white};
+      padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+  }
+
+  height: ${props => (props.open ? "182px" : "0px")};
+  overflow: hidden;
+  ${styles.transitionObject({ time: "0.5s" })};
+  @media (min-width: 768px) {
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+  }
+`;

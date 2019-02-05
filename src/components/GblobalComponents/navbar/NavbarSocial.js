@@ -64,7 +64,7 @@ display: none;
 
 @media (min-width: 768px) {
   display: flex;
-  width: 18rem;
+  width: 10rem;
   justify-content: space-around;
 }
 `

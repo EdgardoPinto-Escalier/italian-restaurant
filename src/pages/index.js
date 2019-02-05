@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { HomeHeader, Banner, BannerButton} from "../utilities";
 import img from "../images/background/homeBackground.jpg";
+import QuickInfo from "../components/HomePageComponent/Quickinfo";
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
       </Banner>
 
     </HomeHeader>
+    <QuickInfo />
   </Layout>
 );
 
