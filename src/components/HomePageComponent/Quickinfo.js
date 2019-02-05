@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Section, Title } from "../../utilities";
 
 export default class Quickinfo extends Component {
   render() {
     return (
-      <div>
-        QUICK INFO COMPONENT
-      </div>
-    )
+      <Section>
+        <Title message="Get to know" title="Our Philosophy" />
+      </Section>
+    );
   }
 }
